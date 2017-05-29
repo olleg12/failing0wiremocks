@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 
-public class RedissonTest {
+public class MockTest {
 
     @Rule
     public WireMockRule oceanMockRule = new WireMockRule(options().dynamicHttpsPort());
